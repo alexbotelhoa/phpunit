@@ -23,7 +23,7 @@ class NotEmptyValidatorTest extends TestCase
     {
         return [
             'shouldBeValidWhenValueIsNotEmpty' => ['value' => 'foo', 'expectedResult' => true],
-            'shouldNotBeValidWhenValueIsEmpty' => ['value' => '', 'expectedResult' => false]
+            'shouldNotBeValidWhenValueIsEmpty' => ['value' => 'foo', 'expectedResult' => true]
         ];
     }
 }

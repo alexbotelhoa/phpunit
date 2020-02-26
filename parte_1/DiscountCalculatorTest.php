@@ -6,7 +6,7 @@ class DiscountCalculatorTest
 
         $discountCalculator = new DiscountCalculator();
 
-        $totalValue = 130;
+        $totalValue = 150;
         $totalWithDiscount = $discountCalculator->apply($totalValue);
 
         $expectedValue = 110;
