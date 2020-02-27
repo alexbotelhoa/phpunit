@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da3cc146-429f-4dac-a278-2f0f5fc04484" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Curso PHPUnit.iml" afterPath="$PROJECT_DIR$/.idea/Curso PHPUnit.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parte_1/DiscountCalculatorTest.php" afterPath="$PROJECT_DIR$/parte_1/DiscountCalculatorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parte_1/index.php" afterPath="$PROJECT_DIR$/parte_1/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parte_1/run_tests.php" afterPath="$PROJECT_DIR$/parte_1/run_tests.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parte_2/composer.json" afterPath="$PROJECT_DIR$/parte_2/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php" afterPath="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parte_2/phpunit.xml" afterPath="$PROJECT_DIR$/parte_2/phpunit.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,45 +21,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Controller/OrderController.php">
+      <file leaf-file-name="Calculadora.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parte_4/app/Calculadora.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="110" column="64" lean-forward="true" selection-start-line="110" selection-start-column="64" selection-end-line="110" selection-end-column="64" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotEmptyValidatorTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php">
+      <file leaf-file-name="CalculadoraTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parte_4/tests/CalculadoraTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="244">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#47#92#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumericValidator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NumericValidator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumericValidatorTest.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="e#47#91#0#PHP" expanded="true" />
+                <element signature="e#7#38#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,6 +59,12 @@
         <option value="$PROJECT_DIR$/../../php/php.ini" />
         <option value="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php" />
         <option value="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php" />
+        <option value="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Service/BadWordsValidatorTest.php" />
+        <option value="$PROJECT_DIR$/parte_2/phpunit.xml" />
+        <option value="$PROJECT_DIR$/parte_4/tests/MeuPrimeiroTest.php" />
+        <option value="$PROJECT_DIR$/parte_4/app/Calculadora.php" />
+        <option value="$PROJECT_DIR$/parte_4/phpunit.xml" />
+        <option value="$PROJECT_DIR$/parte_4/tests/CalculadoraTest.php" />
       </list>
     </option>
   </component>
@@ -195,65 +171,19 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
+              <item name="parte_4" type="cbb8eebc:String" user="parte_4" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
+              <item name="parte_4" type="cbb8eebc:String" user="parte_4" />
               <item name="app" type="cbb8eebc:String" user="app" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="OrderBundle" type="cbb8eebc:String" user="OrderBundle" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="OrderBundle" type="cbb8eebc:String" user="OrderBundle" />
-              <item name="Controller" type="cbb8eebc:String" user="Controller" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="OrderBundle" type="cbb8eebc:String" user="OrderBundle" />
-              <item name="Test" type="cbb8eebc:String" user="Test" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="OrderBundle" type="cbb8eebc:String" user="OrderBundle" />
-              <item name="Test" type="cbb8eebc:String" user="Test" />
-              <item name="Validators" type="cbb8eebc:String" user="Validators" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="OrderBundle" type="cbb8eebc:String" user="OrderBundle" />
-              <item name="Validators" type="cbb8eebc:String" user="Validators" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="phpunit" type="cbb8eebc:String" user="phpunit" />
-              <item name="parte_2" type="cbb8eebc:String" user="parte_2" />
-              <item name="vendor" type="cbb8eebc:String" user="vendor" />
+              <item name="parte_4" type="cbb8eebc:String" user="parte_4" />
+              <item name="tests" type="cbb8eebc:String" user="tests" />
             </path>
           </expand>
           <select />
@@ -263,8 +193,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/parte_4/phpunit.xml" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -284,7 +214,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.NumericValidatorTest">
+  <component name="RunManager" selected="PHPUnit.Curso3-PHPUnit">
+    <configuration name="Curso3-PHPUnit" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="OrderBundle\Validators\Test\NumericValidatorTest" configuration_file="$PROJECT_DIR$/parte_4/phpunit.xml" directory="$PROJECT_DIR$/parte_4/tests" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php" use_alternative_configuration_file="true" />
+    </configuration>
+    <configuration name="CustomerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="OrderBundle\Test\Entity\CustomerTest" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Entity/CustomerTest.php" scope="Class" />
+    </configuration>
+    <configuration name="Diretório Validators" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="OrderBundle\Validators\Test\NumericValidatorTest" configuration_file="$PROJECT_DIR$/parte_2/phpunit.xml" directory="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php" use_alternative_configuration_file="true" />
+    </configuration>
     <configuration name="NotEmptyValidatorTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="OrderBundle\Validators\Test\NotEmptyValidatorTest" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php" scope="Class" />
     </configuration>
@@ -294,18 +233,26 @@
     <configuration name="NumericValidatorTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner class="OrderBundle\Validators\Test\NumericValidatorTest" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php" scope="Class" />
     </configuration>
+    <configuration name="TestCompleto" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner class="OrderBundle\Validators\Test\NumericValidatorTest" configuration_file="$PROJECT_DIR$/parte_2/phpunit.xml" directory="$PROJECT_DIR$/parte_2/src" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php" use_alternative_configuration_file="true" />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner class="OrderBundle\Validators\Test\NumericValidatorTest" file="$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NumericValidatorTest.php" scope="Class" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest" />
-      <item index="1" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest.testIsValid" />
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.Curso3-PHPUnit" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.TestCompleto" />
       <item index="2" class="java.lang.String" itemvalue="PHPUnit.NumericValidatorTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.Diretório Validators" />
+      <item index="4" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest" />
+      <item index="5" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest.testIsValid" />
+      <item index="6" class="java.lang.String" itemvalue="PHPUnit.CustomerTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest.testIsValid" />
-        <item index="1" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.CustomerTest" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest.testIsValid" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.NotEmptyValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -329,44 +276,52 @@
       <workItem from="1582722942735" duration="8253000" />
       <workItem from="1582735665523" duration="191000" />
       <workItem from="1582735859284" duration="386000" />
-      <workItem from="1582736264013" duration="2417000" />
+      <workItem from="1582736264013" duration="14480000" />
     </task>
+    <task id="LOCAL-00001" summary="Tudo certo Agora">
+      <created>1582739943260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582739943260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NotEmptyValidatorTest - 2020.02.26 at 14h 18m 04s.xml">
-      <configuration name="NotEmptyValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 31m 27s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NotEmptyValidatorTest - 2020.02.26 at 14h 18m 21s.xml">
-      <configuration name="NotEmptyValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 32m 18s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NotEmptyValidatorTest_testIsValid - 2020.02.26 at 14h 19m 40s.xml">
-      <configuration name="NotEmptyValidatorTest.testIsValid" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 38m 20s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 09m 22s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 39m 52s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 16m 45s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 40m 42s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 16m 56s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 41m 10s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 17m 25s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 43m 08s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 54m 16s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 45m 04s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 54m 44s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 50m 10s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
-    <history-entry file="NumericValidatorTest - 2020.02.26 at 14h 55m 15s.xml">
-      <configuration name="NumericValidatorTest" configurationId="PHPUnitRunConfigurationType" />
+    <history-entry file="Curso3-PHPUnit - 2020.02.27 at 14h 51m 40s.xml">
+      <configuration name="Curso3-PHPUnit" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24458000" />
+    <option name="totallyTimeSpent" value="36521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -408,6 +363,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tudo certo Agora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tudo certo Agora" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
@@ -418,109 +377,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NumericValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#47#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NumericValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#47#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NumericValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#47#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NotEmptyValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/NotEmptyValidatorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#47#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NotEmptyValidator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -652,25 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/CreditCardNumberValidatorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/CreditCardExpirationValidatorTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -706,14 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Controller/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="110" column="64" lean-forward="true" selection-start-line="110" selection-start-column="64" selection-end-line="110" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Validators/NumericValidator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -737,7 +570,217 @@
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#47#91#0#PHP" expanded="true" />
+            <element signature="e#47#91#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Validators/CreditCardNumberValidatorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#47#100#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Entity/CustomerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#75#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/vendor/phpunit/phpunit/src/Framework/MockObject/MockObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/vendor/phpunit/phpunit/src/Framework/MockObject/Builder/InvocationMocker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="84" column="20" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/FidelityProgramBundle/Test/Service/FidelityProgramServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-827">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Service/BadWordsValidatorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/PaymentBundle/Service/Gateway.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/app/MyFramework/LoggerInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/PaymentBundle/Test/Service/GatewayTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/app/MyFramework/HttpClientInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#31#65#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Controller/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1020">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_3/app/models/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_3/app/models/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Test/Service/CustomerCategoryServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-164">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="e#44#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Service/CustomerCategoryService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Service/CustomerCategoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/src/OrderBundle/Entity/Customer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/report/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_2/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_4/tests/MeuPrimeiroTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_4/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_4/phpunit.xml.ori">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_4/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_4/app/Calculadora.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parte_4/tests/CalculadoraTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
