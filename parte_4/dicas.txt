@@ -23,6 +23,10 @@ composer update
 Intalar o phpunit
 composer require --dev phpunit/phpunit ^7
 
+Testes em Banco de dados:
+
+composer require --dev phpunit/dbunit
+
 
 phpunit.xml
 
@@ -36,3 +40,16 @@ phpunit.xml
 
 Executar o PHPUnit:
 vendor/bin/phpunit
+
+Documentação:
+https://phpunit.readthedocs.io/pt_BR/latest/
+
+Banco de dados:
+composer require --dev phpunit/dbunit
+
+CREATE TABLE `teste_phpunit`.`produtos` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `titulo` VARCHAR(95) NOT NULL,
+  `descricao` VARCHAR(150) NOT NULL,
+  `valor` DECIMAL(5,2) NOT NULL,
+  PRIMARY KEY (`id`));
